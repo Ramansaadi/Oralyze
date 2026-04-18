@@ -1,4 +1,3 @@
-@@ -0,0 +1,298 @@
 // User Authentication System
 class AuthSystem {
     constructor() {
