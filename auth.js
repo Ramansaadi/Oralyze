@@ -109,7 +109,7 @@ class AuthSystem {
             if (success) {
                 this.showMessage('Account created successfully! Please sign in.', 'success');
                 setTimeout(() => {
-                    window.location.href = 'login.html';
+                    window.location.href = 'dashboard.html';
                 }, 1500);
             } else {
                 this.showMessage('Email already exists. Please use a different email.', 'error');
